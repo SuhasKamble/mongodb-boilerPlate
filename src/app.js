@@ -29,4 +29,4 @@ const playlistSchema = new mongoose.Schema({
 // defines values , validators etc,whereas a mongoose model provider an interface to the database for creating quering updating deleting record etc.
 
 // collection creations
-const Playlist = new mongoose.Model("playlist",playlistSchema)
+const Playlist = new mongoose.model("playlist",playlistSchema)
